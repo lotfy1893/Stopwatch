@@ -23,7 +23,8 @@ class ViewController: UIViewController {
     @IBAction func stop(sender: AnyObject) {
         timer.invalidate()
         count = 0
-        timerLabel.text = "\(count)"
+//        timerLabel.text = "\(count)"
+        timerLabel.text = "0"
     }
     @IBAction func pause(sender: AnyObject) {
         timer.invalidate()
